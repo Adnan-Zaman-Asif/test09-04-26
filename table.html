@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Page</title>
+    <style>
+        table{
+            width: 80%; 
+            border-collapse: collapse;
+            
+        }
+        td{
+            border: 2px solid #000000;
+            padding: 10px;
+            background-color: rgba(240, 8, 8, 0.945);
+            color: #ffffff;
+            text-align: center;
+        }
+        th {
+            border: 3px solid #000000;
+            padding: 10px;
+            background-color: rgba(12, 84, 240, 0.795);
+            color: #ffffff;
+            text-align: center;
+        }
+        tfoot {
+            border: 3px solid #000000;
+            padding: 10px;
+            background-color: rgba(12, 84, 240, 0.795);
+            color: #ffffff;
+            text-align: center;
+        }
+        tr{
+            background-color: #313131;
+        }
+        span{
+            margin-top: 50px;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+<center>
+<span style="border: 3px; background-color: aquamarine; text-align: center; color: #000000;">
+    Heading Page
+</span>
+</center>
+<br  />
+<br  />
+    <center>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Club</th>
+            <th>Position</th>
+            <th>Jursey Number</th>
+        </tr>
+        <tr>
+            <td>Lamin Yamal</td>
+            <td>Spain</td>
+            <td>Barcalona</td>
+            <td>Right Wing</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Pedro Gonzalo Lopez</td>
+            <td>Spain</td>
+            <td>Barcalona</td>
+            <td>Center Mid</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Fermin Lopez</td>
+            <td>Spain</td>
+            <td>Barcalona</td>
+            <td>Attacking Mid</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>Pau Cubarsi</td>
+            <td>Spain</td>
+            <td>Barcalona</td>
+            <td>Center Back</td>
+            <td>5</td>
+        </tr>
+    </table>
+    </center>
+    <br  />
+    <br  />
+    <table style="width: 40%;">
+        <tr>
+            <th>Manager</th>
+            <td>Hansi Dieter Flik</td>
+        </tr>
+        <tr>
+            <th>Assistant Manager</th>
+            <td>Marcus Sorg</td>
+        </tr>
+    </table>
+<br  />
+<br  />
+<table>
+  <caption>
+    Council budget (in £) 2018
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col">Items</th>
+      <th scope="col">Expenditure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Donuts</th>
+      <td>3,000</td>
+    </tr>
+    <tr>
+      <th scope="row">Stationery</th>
+      <td>18,000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th scope="row">Totals</th>
+      <th>21,000</th>
+    </tr>
+  </tfoot>
+</table>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formatting Demo</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .capitalize {
+      text-transform: capitalize;
+    }
+
+    .box {
+      background-color: #ecd8d8;
+      border: 2px solid #e95510;
+      border-radius: 15px;
+      padding: 15px;
+      margin: 20px 0;
+    }
+
+    .highlight-span {
+      display: inline-block;
+      background: #ffe7e8;
+      border: 2px solid #e66465;
+      padding: 15px;
+    }
+
+    .yellow-span {
+      display: inline-block;
+      background-color: #e7e40d;
+      padding: 5px;
+    }
+
+    .red-bg {
+      background-color: #ff2323;
+      color: white;
+      padding: 5px;
+    }
+
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Headings -->
+  <h1>Formatting</h1>
+  <h1>Formatting</h1>
+  <h1>Formatting</h1>
+
+  <!-- Links & Text Formatting -->
+  <p>This is <strong><a href="https://google.com" target="_blank">important</a></strong></p>
+  <p>This is <i><a href="https://google.com" target="_blank">important</a></i></p>
+  <p>This is <em><a href="https://google.com" target="_blank">important</a></em></p>
+
+  <!-- Superscript & Subscript -->
+  <p>(A + B)<sup>2</sup> = A<sup>2</sup> + 2AB + B<sup>2</sup></p>
+  <p>H<sub>2</sub>O</p>
+
+  <!-- Text Tags -->
+  <p>This is for <del>delete</del> tag</p>
+  <p>This is for <mark>mark</mark> tag</p>
+
+  <!-- Text Transform -->
+  <p class="capitalize">
+    this is for <em><strong>transforming</strong></em> the text
+  </p>
+
+  <!-- Text Align -->
+  <p class="center">
+    this is for <em><strong>aligning</strong></em> the text
+  </p>
+
+  <!-- Div Background -->
+  <div class="center red-bg">
+    this is for <em><strong>div background color</strong></em>
+  </div>
+
+  <!-- Span Background -->
+  <p class="center">
+    <span class="yellow-span">
+      this is for <em><strong>span background color</strong></em>
+    </span>
+  </p>
+
+  <!-- Box Content -->
+  <div class="box center">
+    <p>
+      I am a tree and I stand so tall<br />
+      I have great big branches and little branches small<br />
+      When the wind blows left or the wind blows right<br />
+      I keep my branches strong with all of my might
+    </p>
+  </div>
+
+  <hr />
+
+  <!-- Styled Span Block -->
+  <p class="center">
+    <span class="highlight-span">
+      I am a tree and I stand so tall<br />
+      I have great big branches and little branches small<br />
+      When the wind blows left or the wind blows right<br />
+      I keep my branches strong with all of my might
+    </span>
+  </p>
+
+  <hr />
+
+  <!-- Ordered List -->
+  <ol>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+    <li>five</li>
+  </ol>
+
+  <!-- Unordered List with Nested Ordered List -->
+  <ul>
+    <li>ek</li>
+    <li>
+      dui
+      <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+      </ol>
+    </li>
+    <li>tin</li>
+    <li>char</li>
+    <li>pach</li>
+  </ul>
+
+</body>
+</html>

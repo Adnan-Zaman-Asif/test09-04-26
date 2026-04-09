@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Two Page</title>
+
+        <style>
+        body{
+            background-color: #414141;
+            color: #ffffff;
+        }
+        .submit_button{
+            background-color: rgba(11, 193, 238, 0.959);
+            color: black;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: solid #000000e5;
+            border-radius: 8px;
+            width: 15%;
+            align-items: left;
+        }
+        .input_box{
+            background-color: rgba(226, 230, 18, 0.959);
+            color: black;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: solid #000000e5;
+            border-radius: 8px;
+            width: 350px;
+        }
+        .label_box{
+            background-color: rgba(236, 56, 11, 0.959);
+            color: rgb(255, 255, 255);
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border: solid #000000e5;
+            border-radius: 8px;
+            width: 350px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML </h1>
+    
+    <form action="/action.php" method="GET" accept-charset="UTF-16" autocomplete="on">
+        <label for="first_name" class="label_box">First Name</label>
+        <input class="input_box" type="text" placeholder="First Name" name="" id="first_name">
+        <!-- <br  />
+        <br  />
+        <label for="last_name" class="label_box">Last Name</label>
+        <input class="input_box" type="text" placeholder="Last Name" name="" id="last_name">
+        <br  />
+        <br  />
+        <label for="address" class="label_box">Address </label>
+        <input type="text" class="input_box" placeholder="Address" name="" id="address">
+        <br  />
+        <br  />
+        <label class="label_box" for="email_id">Email Id</label>
+        <input class="input_box" type="text" placeholder="Email Id" name="" id="email_id">
+        <br  />
+        <br  />
+        <label class="label_box" for="password">Enter Passsword</label>
+        <input class="input_box" type="password" placeholder="Your Password" name="" id="password">
+        <br  />
+        <br  /> -->
+        <!-- <input class="submit_button" type="submit" value="Submit"> -->
+        <select name="favourite_player" id="">
+            <option value="fermin">Fermin Lopez</option>
+            <option value="pedri">Pedro Gonzalo Lopez</option>
+            <option value="yamal">Lamine Yamal</option>
+
+        </select>
+
+        <input type="date" name="date" id="">
+        <input type="color" name="color_input" id="">
+        <input type="checkbox" name="checkbox" id="">
+        <br  />
+        <label for="Basketball">
+        <input type ="checkbox" value="Basketball" name="hobby" id="Basketball">Basketball
+        </label>
+        <label for="Football">
+        <input type ="checkbox" value="Football" name="hobby" id="Football">Football
+        </label>
+        <label for="Cricket">
+        <input type ="checkbox" value="Cricket" name="hobby" id="Cricket">Cricket
+        </label>
+        <label for="Hockey">
+        <input type ="checkbox" value="Hockey" name="hobby" id="Hockey">Hockey
+        </label>
+        <br  />
+        <label for="volume">
+        <input type="range" name="volumue" id="volumue" minlength="0" max="100">Volume
+        </label>
+        <br  /> 
+        <input type="Submit" class="submit_button" value="Submit Your Data">
+    </form>
+</body>
+</html>
